@@ -9,3 +9,7 @@ CSV文件内A列为ip，B列为port，验证完成后会输出ip_ports_result.cs
 <br>
 <h2>对比ip和端口.py</h2><br>
 作用：读取original.csv内A列ip B列port与nessus.csv的A列ip和B列port进行相互对比并输出存在差异数据到diff.csv。
+<br>
+<h2>ping.py</h2>
+用于判断ip.txt文件（每行一个ip）的网络状态<br>
+if lost_rate < 10.73 and delay is not None and delay < 200:如果小于10.73ms回包小于200ms则在报告中打印“正常”，否则为不正常。
