@@ -4,7 +4,7 @@ import csv
 nm = nmap.PortScanner()
 
 # 读取CSV文件并验证IP地址和UDP端口
-with open('udp-diff.csv', mode='r') as file:
+with open('udpport.csv', mode='r') as file:
     csv_reader = csv.reader(file)
     next(csv_reader)  # 跳过标题行
     with open('ip_ports_result.csv', mode='w', newline='') as result_file:
@@ -24,3 +24,4 @@ with open('udp-diff.csv', mode='r') as file:
             else:
                 print(f"{ip}:{port} is closed")
                 csv_writer.writerow([ip, port, "closed"])
+                
