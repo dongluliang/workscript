@@ -8,4 +8,4 @@ CSV文件内A列为ip，B列为port，验证完成后会输出ip_ports_result.cs
 2、需要安装模块 pip install python-nmap<br>
 <br>
 <h2>对比ip和端口.py</h2><br>
-作用读取original.csv内A列ip B列port与nessus.csv的A列ip和B列port进行相互对比并输出存在差异数据到diff.csv。
+作用：读取original.csv内A列ip B列port与nessus.csv的A列ip和B列port进行相互对比并输出存在差异数据到diff.csv。
