@@ -2,12 +2,12 @@
 工作中常用的小脚本
 <h2>base64topdf.py</h2>
 作用:将base64的编码txt文件转换为.pdf文件。
-optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
-                        输入的 Base64 源码文本文件路径
-  -o OUTPUT, --output OUTPUT
-                        输出的 PDF 文件路径，默认为脚本同目录下
+optional arguments:<br>
+  -h, --help            show this help message and exit<br>
+  -i INPUT, --input INPUT<br>
+                        输入的 Base64 源码文本文件路径<br>
+  -o OUTPUT, --output OUTPUT<br>
+                        输出的 PDF 文件路径，默认为脚本同目录下<br>
 <h2>udpscan.py</h2><br>
 作用：读取CSV文件并验证其中IP对的应的UDP端口是否为开放。<br>
 CSV文件内A列为ip，B列为port，验证完成后会输出ip_ports_result.csv报告。<br>
