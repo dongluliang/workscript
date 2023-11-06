@@ -1,6 +1,9 @@
+
 # workscript
 工作中常用的小脚本
-<h2>base64topdf.py</h2>
+<h2>chaip.py</h2><br>
+作用：从ip.txt中逐行读取IP地址，再调用系统本地的nali来进行IP归属地查询，之后把查询结果放入output.csv文件<br>
+<h2>base64topdf.py</h2><br>
 作用:将base64的编码txt文件转换为.pdf文件。<br>
 optional arguments:<br>
   -h, --help            show this help message and exit<br>
