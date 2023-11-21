@@ -1,6 +1,8 @@
 
 # workscript
 工作中常用的小脚本
+<h2>download_md_img.py</h2><br>
+作用：用于下载同目录下的所有.md文档内的图片到本地images文件夹，并修改md文档内的图片路径为本地相对路径。
 <h2>chaip.py</h2><br>
 作用：从ip.txt中逐行读取IP地址，再调用系统本地的nali来进行IP归属地查询，之后把查询结果放入output.csv文件<br>
 <h2>base64topdf.py</h2><br>
